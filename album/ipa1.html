@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kelas 12 IPA1 - Foto Kenangan</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+  <div class="max-w-4xl mx-auto p-6">
+    <a href="../index.html" class="text-blue-600 underline mb-4 block">← Kembali ke Halaman Utama</a>
+    <h1 class="text-3xl font-bold mb-6">📚 Kelas 12 IPA1</h1>
+
+    <div class="grid grid-cols-2 sm:grid-cols-3 gap-4 mb-10">
+      <img src="../images/ipa1/foto1.jpg" alt="foto1.jpg" class="rounded-lg shadow" />
+      <img src="../images/ipa1/foto2.jpg" alt="foto2.jpg" class="rounded-lg shadow" />
+      <img src="../images/ipa1/foto3.jpg" alt="foto3.jpg" class="rounded-lg shadow" />
+    </div>
+
+    <div id="disqus_thread"></div>
+    <script>
+      var disqus_config = function () {
+        this.page.url = window.location.href;
+        this.page.identifier = 'ipa1';
+      };
+      (function () {
+        var d = document, s = d.createElement('script');
+        s.src = 'https://NAMA_DISQUS_KAMU.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+      })();
+    </script>
+  </div>
+</body>
+</html>
